@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.WindowsUI", "..\..\..\Desktop\bitirme\Pisy Windows App\Yoklama_Desktop\piys.WindowsUI.csproj", "{5DCD7382-D091-4313-BDBD-E04AC19DF12E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.Service", "piys.Service\piys.Service.csproj", "{71631128-C0CD-46E8-A32D-DCDEE5426440}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.Service", "..\..\..\Desktop\bitirme\Piys WCF Service\Bitirme_Service\piys.Service.csproj", "{71631128-C0CD-46E8-A32D-DCDEE5426440}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.WebUI", "piys.WebUI\piys.WebUI.csproj", "{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.WebUI", "..\..\..\Desktop\bitirme\Piys Web Application\Bitirme_Web\piys.WebUI.csproj", "{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.WindowsUI", "piys.WindowsUI\piys.WindowsUI.csproj", "{5DCD7382-D091-4313-BDBD-E04AC19DF12E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ressources", "Ressources", "{882D64FA-D865-4C4B-B185-3AA96C596B35}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49CDA9A6-68B5-4AEF-A56C-CFC262FEE7A5}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\bitirme\Parmak İzli Yoklama Sistemi.pdf = ..\..\..\Desktop\bitirme\Parmak İzli Yoklama Sistemi.pdf
-		..\..\..\Desktop\bitirme\Piys Arduino\ademdolaslan\piysArduino.ino = ..\..\..\Desktop\bitirme\Piys Arduino\ademdolaslan\piysArduino.ino
-		..\..\..\Desktop\bitirme\Piys Database\PiysDb.bak = ..\..\..\Desktop\bitirme\Piys Database\PiysDb.bak
+		Ressources\Parmak İzli Yoklama Sistemi.pdf = Ressources\Parmak İzli Yoklama Sistemi.pdf
+		Ressources\piysArduino.ino = Ressources\piysArduino.ino
+		Ressources\PiysDb.bak = Ressources\PiysDb.bak
 	EndProjectSection
 EndProject
 Global
@@ -22,10 +22,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71631128-C0CD-46E8-A32D-DCDEE5426440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71631128-C0CD-46E8-A32D-DCDEE5426440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71631128-C0CD-46E8-A32D-DCDEE5426440}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,6 +30,10 @@ Global
 		{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
