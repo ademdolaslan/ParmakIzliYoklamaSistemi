@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.WindowsUI", "..\..\..\Desktop\bitirme\Pisy Windows App\Yoklama_Desktop\piys.WindowsUI.csproj", "{5DCD7382-D091-4313-BDBD-E04AC19DF12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.Service", "..\..\..\Desktop\bitirme\Piys WCF Service\Bitirme_Service\piys.Service.csproj", "{71631128-C0CD-46E8-A32D-DCDEE5426440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "piys.WebUI", "..\..\..\Desktop\bitirme\Piys Web Application\Bitirme_Web\piys.WebUI.csproj", "{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ressources", "Ressources", "{882D64FA-D865-4C4B-B185-3AA96C596B35}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\bitirme\Parmak İzli Yoklama Sistemi.pdf = ..\..\..\Desktop\bitirme\Parmak İzli Yoklama Sistemi.pdf
+		..\..\..\Desktop\bitirme\Piys Arduino\ademdolaslan\piysArduino.ino = ..\..\..\Desktop\bitirme\Piys Arduino\ademdolaslan\piysArduino.ino
+		..\..\..\Desktop\bitirme\Piys Database\PiysDb.bak = ..\..\..\Desktop\bitirme\Piys Database\PiysDb.bak
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCD7382-D091-4313-BDBD-E04AC19DF12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71631128-C0CD-46E8-A32D-DCDEE5426440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71631128-C0CD-46E8-A32D-DCDEE5426440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71631128-C0CD-46E8-A32D-DCDEE5426440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71631128-C0CD-46E8-A32D-DCDEE5426440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEC3A771-D7AC-4EB4-AC38-69CF86744F78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBB2FD93-328C-4AD8-983A-4C3F0BD8A2F3}
+	EndGlobalSection
+EndGlobal
